@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd49625-5d18-4994-be4f-9041d2bcf35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/Order80Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/Order80Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/common/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/alan/springcloud/common/CommonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/alan/springcloud/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/alan/springcloud/entity/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/alan/springcloud/common/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/alan/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/alan/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/alan/springcloud/entity/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/alan/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/alan/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/alan/springcloud/Eureka7001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/alan/springcloud/common/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/alan/springcloud/entity/Payment.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +95,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Order80Application">
+  <component name="RunManager" selected="Spring Boot.Eureka7001Application">
+    <configuration name="Eureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alan.springcloud.Eureka7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Order80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order80" />
       <extension name="coverage">
@@ -132,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Eureka7001Application" />
         <item itemvalue="Spring Boot.Order80Application" />
         <item itemvalue="Spring Boot.PaymentApplication" />
       </list>
@@ -173,7 +179,8 @@
       <workItem from="1592571070073" duration="2195000" />
       <workItem from="1592573563757" duration="2578000" />
       <workItem from="1592738257169" duration="11092000" />
-      <workItem from="1592752913931" duration="2394000" />
+      <workItem from="1592752913931" duration="3832000" />
+      <workItem from="1592797631118" duration="3648000" />
     </task>
     <servers />
   </component>
@@ -193,46 +200,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592748462099" />
-    <state width="1323" height="320" key="GridCell.Tab.0.bottom" timestamp="1592755462837">
+    <state width="927" height="313" key="GridCell.Tab.0.bottom" timestamp="1592800426171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592755462837" />
-    <state width="1323" height="320" key="GridCell.Tab.0.center" timestamp="1592755462837">
+    <state width="927" height="313" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592800426171" />
+    <state width="927" height="313" key="GridCell.Tab.0.center" timestamp="1592800426171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592755462837" />
-    <state width="1323" height="320" key="GridCell.Tab.0.left" timestamp="1592755462837">
+    <state width="927" height="313" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592800426171" />
+    <state width="927" height="313" key="GridCell.Tab.0.left" timestamp="1592800426171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592755462837" />
-    <state width="1323" height="320" key="GridCell.Tab.0.right" timestamp="1592755462837">
+    <state width="927" height="313" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592800426171" />
+    <state width="927" height="313" key="GridCell.Tab.0.right" timestamp="1592800426171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592755462837" />
-    <state width="927" height="195" key="GridCell.Tab.1.bottom" timestamp="1592754977624">
+    <state width="927" height="313" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592800426171" />
+    <state width="927" height="313" key="GridCell.Tab.1.bottom" timestamp="1592800426173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="927" height="195" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592754977624" />
-    <state width="927" height="195" key="GridCell.Tab.1.center" timestamp="1592754977623">
+    <state width="927" height="313" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592800426173" />
+    <state width="927" height="313" key="GridCell.Tab.1.center" timestamp="1592800426171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="927" height="195" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592754977623" />
-    <state width="927" height="195" key="GridCell.Tab.1.left" timestamp="1592754977623">
+    <state width="927" height="313" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592800426171" />
+    <state width="927" height="313" key="GridCell.Tab.1.left" timestamp="1592800426171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="927" height="195" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592754977623" />
-    <state width="927" height="195" key="GridCell.Tab.1.right" timestamp="1592754977623">
+    <state width="927" height="313" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592800426171" />
+    <state width="927" height="313" key="GridCell.Tab.1.right" timestamp="1592800426173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="927" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592754977623" />
+    <state width="927" height="313" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592800426173" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1592748501389">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592748501389" />
-    <state x="43" y="59" key="new project wizard" timestamp="1592754110767">
+    <state x="56" y="54" key="new project wizard" timestamp="1592797897509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="43" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1592754110767" />
+    <state x="56" y="54" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1592797897509" />
     <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1592748717137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
