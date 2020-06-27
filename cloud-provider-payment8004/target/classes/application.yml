@@ -1,0 +1,12 @@
+server:
+  port: 8004
+
+
+#服务别名 --- 注册zookeeper到注册中心名称
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      #连接Linux上的zookeeper服务
+      connect-string: 192.168.133.132:2181
