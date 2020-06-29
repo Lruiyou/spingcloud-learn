@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd49625-5d18-4994-be4f-9041d2bcf35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/alan/springcloud/OrderFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/alan/springcloud/controller/OrderFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/alan/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/alan/springcloud/controller/OrderFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/alan/springcloud/controller/OrderFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/alan/springcloud/service/PaymentFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/alan/springcloud/service/PaymentFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/alan/springcloud/controller/OrderFeignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/alan/springcloud/controller/OrderFeignController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/alan/springcloud/service/PaymentFeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/alan/springcloud/service/PaymentFeignService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/alan/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/alan/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/alan/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/alan/springcloud/controller/PaymentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.OrderFeignApplication" />
-        <item itemvalue="Spring Boot.Payment8002Application" />
         <item itemvalue="Spring Boot.Payment8001Application" />
         <item itemvalue="Spring Boot.Eureka7001Application" />
         <item itemvalue="Spring Boot.Eureka7002Application" />
+        <item itemvalue="Spring Boot.Payment8002Application" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +192,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -219,7 +224,7 @@
       <workItem from="1592804993733" duration="3825000" />
       <workItem from="1593140594975" duration="10004000" />
       <workItem from="1593231864592" duration="9155000" />
-      <workItem from="1593416320072" duration="9237000" />
+      <workItem from="1593416320072" duration="11538000" />
     </task>
     <servers />
   </component>
@@ -256,38 +261,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592748462099" />
-    <state width="1008" height="245" key="GridCell.Tab.0.bottom" timestamp="1593436736251">
+    <state width="1008" height="294" key="GridCell.Tab.0.bottom" timestamp="1593446957798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593436736251" />
-    <state width="1008" height="245" key="GridCell.Tab.0.center" timestamp="1593436736250">
+    <state width="1008" height="294" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593446957798" />
+    <state width="1008" height="294" key="GridCell.Tab.0.center" timestamp="1593446957797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593436736250" />
-    <state width="1008" height="245" key="GridCell.Tab.0.left" timestamp="1593436736250">
+    <state width="1008" height="294" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593446957797" />
+    <state width="1008" height="294" key="GridCell.Tab.0.left" timestamp="1593446957795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593436736250" />
-    <state width="1008" height="245" key="GridCell.Tab.0.right" timestamp="1593436736251">
+    <state width="1008" height="294" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593446957795" />
+    <state width="1008" height="294" key="GridCell.Tab.0.right" timestamp="1593446957797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593436736251" />
-    <state width="1008" height="245" key="GridCell.Tab.1.bottom" timestamp="1593436736252">
+    <state width="1008" height="294" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593446957797" />
+    <state width="1008" height="294" key="GridCell.Tab.1.bottom" timestamp="1593446957802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593436736252" />
-    <state width="1008" height="245" key="GridCell.Tab.1.center" timestamp="1593436736251">
+    <state width="1008" height="294" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593446957802" />
+    <state width="1008" height="294" key="GridCell.Tab.1.center" timestamp="1593446957801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593436736251" />
-    <state width="1008" height="245" key="GridCell.Tab.1.left" timestamp="1593436736251">
+    <state width="1008" height="294" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593446957801" />
+    <state width="1008" height="294" key="GridCell.Tab.1.left" timestamp="1593446957801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593436736251" />
-    <state width="1008" height="245" key="GridCell.Tab.1.right" timestamp="1593436736251">
+    <state width="1008" height="294" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593446957801" />
+    <state width="1008" height="294" key="GridCell.Tab.1.right" timestamp="1593446957802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1008" height="245" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593436736251" />
+    <state width="1008" height="294" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593446957802" />
     <state width="1008" height="245" key="GridCell.Tab.2.bottom" timestamp="1593436735981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
