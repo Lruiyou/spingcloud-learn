@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd49625-5d18-4994-be4f-9041d2bcf35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/alan/springcloud/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/alan/springcloud/config/GatewayConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +188,11 @@
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -222,7 +224,7 @@
       <workItem from="1593574589666" duration="2662000" />
       <workItem from="1593872198425" duration="6147000" />
       <workItem from="1593944071318" duration="10525000" />
-      <workItem from="1594004066557" duration="2262000" />
+      <workItem from="1594004066557" duration="2778000" />
     </task>
     <servers />
   </component>
@@ -259,38 +261,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593574868008" />
-    <state width="1005" height="201" key="GridCell.Tab.0.bottom" timestamp="1594022604813">
+    <state width="1005" height="203" key="GridCell.Tab.0.bottom" timestamp="1594023388542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594022604813" />
-    <state width="1005" height="201" key="GridCell.Tab.0.center" timestamp="1594022604812">
+    <state width="1005" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594023388542" />
+    <state width="1005" height="203" key="GridCell.Tab.0.center" timestamp="1594023388541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594022604812" />
-    <state width="1005" height="201" key="GridCell.Tab.0.left" timestamp="1594022604812">
+    <state width="1005" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594023388541" />
+    <state width="1005" height="203" key="GridCell.Tab.0.left" timestamp="1594023388541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594022604812" />
-    <state width="1005" height="201" key="GridCell.Tab.0.right" timestamp="1594022604812">
+    <state width="1005" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594023388541" />
+    <state width="1005" height="203" key="GridCell.Tab.0.right" timestamp="1594023388542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594022604812" />
-    <state width="1005" height="201" key="GridCell.Tab.1.bottom" timestamp="1594022604814">
+    <state width="1005" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594023388542" />
+    <state width="1005" height="203" key="GridCell.Tab.1.bottom" timestamp="1594023388543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594022604814" />
-    <state width="1005" height="201" key="GridCell.Tab.1.center" timestamp="1594022604813">
+    <state width="1005" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594023388543" />
+    <state width="1005" height="203" key="GridCell.Tab.1.center" timestamp="1594023388542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594022604813" />
-    <state width="1005" height="201" key="GridCell.Tab.1.left" timestamp="1594022604813">
+    <state width="1005" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594023388542" />
+    <state width="1005" height="203" key="GridCell.Tab.1.left" timestamp="1594023388542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594022604813" />
-    <state width="1005" height="201" key="GridCell.Tab.1.right" timestamp="1594022604813">
+    <state width="1005" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594023388542" />
+    <state width="1005" height="203" key="GridCell.Tab.1.right" timestamp="1594023388543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="201" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594022604813" />
+    <state width="1005" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594023388543" />
     <state width="1008" height="245" key="GridCell.Tab.2.bottom" timestamp="1593436735981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
