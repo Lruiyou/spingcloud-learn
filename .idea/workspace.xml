@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd49625-5d18-4994-be4f-9041d2bcf35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/alan/springcloud/ConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/alan/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/alan/springcloud/ConfigClient3366Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/alan/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigClient3366Application">
     <configuration name="ConfigCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center3344" />
       <extension name="coverage">
@@ -110,6 +116,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alan.springcloud.ConfigCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3366Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client3366" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alan.springcloud.ConfigClient3366Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,26 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Payment8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alan.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alan.springcloud.Payment8001Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClient3366Application" />
         <item itemvalue="Spring Boot.ConfigClientApplication" />
         <item itemvalue="Spring Boot.ConfigCenterApplication" />
         <item itemvalue="Spring Boot.Eureka7001Application" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.Payment8001Application" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +186,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.22256568" />
+          <option name="contentProportion" value="0.2527048" />
           <treeState>
             <expand>
               <path>
@@ -191,11 +197,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -229,7 +230,10 @@
       <workItem from="1593872198425" duration="6147000" />
       <workItem from="1593944071318" duration="10525000" />
       <workItem from="1594004066557" duration="10568000" />
-      <workItem from="1594088186118" duration="5792000" />
+      <workItem from="1594088186118" duration="6778000" />
+      <workItem from="1594301174154" duration="7485000" />
+      <workItem from="1594308906871" duration="1075000" />
+      <workItem from="1594369247140" duration="598000" />
     </task>
     <servers />
   </component>
@@ -266,38 +270,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593574868008" />
-    <state width="1005" height="253" key="GridCell.Tab.0.bottom" timestamp="1594110262834">
+    <state width="966" height="261" key="GridCell.Tab.0.bottom" timestamp="1594369926152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594110262834" />
-    <state width="1005" height="253" key="GridCell.Tab.0.center" timestamp="1594110262834">
+    <state width="966" height="261" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594369926152" />
+    <state width="966" height="261" key="GridCell.Tab.0.center" timestamp="1594369926151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594110262834" />
-    <state width="1005" height="253" key="GridCell.Tab.0.left" timestamp="1594110262833">
+    <state width="966" height="261" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594369926151" />
+    <state width="966" height="261" key="GridCell.Tab.0.left" timestamp="1594369926151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594110262833" />
-    <state width="1005" height="253" key="GridCell.Tab.0.right" timestamp="1594110262834">
+    <state width="966" height="261" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594369926151" />
+    <state width="966" height="261" key="GridCell.Tab.0.right" timestamp="1594369926152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594110262834" />
-    <state width="1005" height="253" key="GridCell.Tab.1.bottom" timestamp="1594110262836">
+    <state width="966" height="261" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594369926152" />
+    <state width="966" height="261" key="GridCell.Tab.1.bottom" timestamp="1594369926152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594110262836" />
-    <state width="1005" height="253" key="GridCell.Tab.1.center" timestamp="1594110262835">
+    <state width="966" height="261" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594369926152" />
+    <state width="966" height="261" key="GridCell.Tab.1.center" timestamp="1594369926152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594110262835" />
-    <state width="1005" height="253" key="GridCell.Tab.1.left" timestamp="1594110262835">
+    <state width="966" height="261" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594369926152" />
+    <state width="966" height="261" key="GridCell.Tab.1.left" timestamp="1594369926152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594110262835" />
-    <state width="1005" height="253" key="GridCell.Tab.1.right" timestamp="1594110262835">
+    <state width="966" height="261" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594369926152" />
+    <state width="966" height="261" key="GridCell.Tab.1.right" timestamp="1594369926152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1005" height="253" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594110262835" />
+    <state width="966" height="261" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594369926152" />
     <state width="1008" height="245" key="GridCell.Tab.2.bottom" timestamp="1593436735981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -318,10 +322,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594051009893" />
-    <state x="80" y="52" width="1251" height="593" key="new project wizard" timestamp="1594090069843">
+    <state x="80" y="48" width="1251" height="593" key="new project wizard" timestamp="1594301309629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="80" y="52" width="1251" height="593" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594090069843" />
+    <state x="80" y="48" width="1251" height="593" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594301309629" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593418186700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
